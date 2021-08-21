@@ -1,5 +1,64 @@
-.smuCheckbox{}
+.smuCheckbox {}
 
-.checkSmu{
-    
+.checkSmu {}
+
+.checkSmu {
+    font-family: arial;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkSmu input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-indicator {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 26px;
+    width: 26px;
+    background: #F1F1F1;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+
+}
+
+.checkSmu:hover input~.checkbox-indicator,
+.checkSmu input:focus~.checkbox-indicator {
+    background: #F1F1F1;
+}
+
+.checkSmu input:checked~.checkbox-indicator {
+    background: #3C9FE5;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 2px 5px 2px rgba(60, 159, 229, 0.85);
+}
+
+.checkbox-indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.checkSmu input:checked~.checkbox-indicator:after {
+    display: block;
+}
+
+.control-checkbox .checkbox-indicator:after {
+    left: 9px;
+    top: 2px;
+    width: 6px;
+    height: 14px;
+    border: solid #FFFFFF;
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
 }
