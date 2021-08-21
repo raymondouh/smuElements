@@ -10,6 +10,7 @@
 }
 
 button.write{
+    /* TODO: make adaptive */
     width: 180px;
     height: 55px;
     background: linear-gradient(180deg, #3479E4 0%, #AACAFD 100%);
