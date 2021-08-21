@@ -1,0 +1,19 @@
+.wrapper{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.smuElement{
+    width: 350px;
+    height: 350px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    border: 1px solid purple;
+    border-radius: 10px;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}

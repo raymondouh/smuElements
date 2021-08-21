@@ -1,0 +1,21 @@
+.write{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+button.write{
+
+}
+
+button.write:disabled>.telegram-image path{
+    fill: //color
+}
+
+button.write:disabled {
+
+}
+
+.telegram-image path{
+    fill: //color
+}
