@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.smuElement{
+.smu-element{
     width: 300px;
     height: 300px;
     display: -webkit-flex;

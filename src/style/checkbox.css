@@ -1,8 +1,8 @@
-.smuCheckbox {
+.smu-checkbox {
     height: 30px;
 }
 
-.checkSmu {
+.check-smu {
     display: block;
     position: relative;
     padding-left: 30px;
@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-.checkSmu input {
+.check-smu input {
     position: absolute;
     z-index: -1;
     opacity: 0;
@@ -28,12 +28,12 @@
     border-radius: 5px;
 }
 
-.checkSmu:hover input~.checkbox-indicator-large,
-.checkSmu input:focus~.checkbox-indicator-large {
+.check-smu:hover input~.checkbox-indicator-large,
+.check-smu input:focus~.checkbox-indicator-large {
     background: #F1F1F1;
 }
 
-.checkSmu input:checked~.checkbox-indicator-large {
+.check-smu input:checked~.checkbox-indicator-large {
     background: #3C9FE5;
     border: 2px solid #FFFFFF;
     box-shadow: 0px 2px 5px 2px rgba(60, 159, 229, 0.85);
@@ -46,12 +46,12 @@
     display: none;
 }
 
-.checkSmu input:checked~.checkbox-indicator-large:after {
+.check-smu input:checked~.checkbox-indicator-large:after {
     display: block;
 }
 
 .control-checkbox-large .checkbox-indicator-large:after {
-    left: 9px;
+    left: 8px;
     top: 3px;
     width: 6px;
     height: 13px;

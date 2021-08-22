@@ -1,6 +1,6 @@
-.smuSort {}
+.smu-sort {}
 
-.smuSelect {
+.smu-select {
     /* TODO: make adaptive */
 
     width: 220px;
@@ -17,15 +17,15 @@
     appearance: none;
 }
 
-.smuSelect:focus {
+.smu-select:focus {
     background-position:
 }
 
-.smuSelect:-ms-expand {
+.smu-select:-ms-expand {
     display: none;
 }
 
-.smuSelect>option {
+.smu-select>option {
     width: 80%;
     font-style: normal;
     font-weight: normal;

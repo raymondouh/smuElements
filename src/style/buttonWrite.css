@@ -38,10 +38,6 @@ button.write:disabled {
     background: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
 }
 
-.telegram-image{
-    //margin-left: 15px;
-}
-
 .telegram-image path{
     fill: #FFFFFF;
 
