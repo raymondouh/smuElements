@@ -1,0 +1,26 @@
+.smu-access-button{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    max-width: 40px;
+}
+
+.smu-access-button path{
+    fill: url(#paint0_linear);
+}
+
+.smu-access-button circle{
+    stroke: url(#paint0_linear);
+}
+
+.smu-access-button:hover circle{
+    stroke: #337BEB;
+}
+
+.smu-access-button:hover path{
+    fill: #337BEB;
+}
