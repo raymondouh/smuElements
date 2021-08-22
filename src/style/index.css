@@ -18,3 +18,8 @@
     justify-content: center;
     margin: 20px;
 }
+
+.expanded{
+    width: 500px !important;
+    height: 300px !important;
+}
