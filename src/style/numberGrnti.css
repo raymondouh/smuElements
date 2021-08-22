@@ -1,0 +1,16 @@
+.number-grnti{
+    height: 25px;
+    width: 340px;
+    border: 1px solid #B4D3E9;
+    border-radius: 5px;
+}
+
+.number-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: #575757;
+    text-align: center;
+}
