@@ -20,6 +20,7 @@ button.write{
 }
 
 button.write:active{
+    transform: translate();
     background: #575757;
     transition: .009s;
 }

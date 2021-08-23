@@ -251,13 +251,13 @@ function createSmuStaffArray(key, lkey) {
     }
     staff.push(chairman);
 
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < randNum(2, 20); i++) {
         globalPetrovId++
         let petrov = {
             "name": name + ' ' + globalPetrovId,
             "position": positio,
-            "email": chairmanEmail,
-            "scienceID": email,
+            "email": email,
+            "scienceID": scienceID,
             "imgName": imgName
         }
         staff.push(petrov);
